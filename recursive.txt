@@ -1,0 +1,19 @@
+  
+ ALGORITHME Pro_alorithme
+
+ Fonction Palindrome(T: array_of integer[]): booléen;
+VAR
+    i, j: integer;
+BEGIN
+    i := 1;
+    j := longueur(Mot);
+    WHILE ( i < j ) DO
+       IF(T[i] = T[j]) Alors
+            i = i + 1;
+            j = j - 1;
+        ELSE
+            Return 0;
+        END_IF
+       END_WHILE
+    Return 1;
+END

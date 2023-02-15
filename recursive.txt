@@ -8,7 +8,7 @@ BEGIN
     i := 1;
     j := longueur(Mot);
     WHILE ( i < j ) DO
-       IF(T[i] = T[j]) Alors
+       IF(T[i] = T[j])THEN
             i = i + 1;
             j = j - 1;
         ELSE
